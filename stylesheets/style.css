@@ -1,0 +1,23 @@
+#logo {
+        border: 1px solid blue;
+        background-color: lightblue;
+        height:100px;
+        text-align:center;
+        padding:13px;
+        display:inline-block;
+}
+#menu {
+        border: 1px solid blue;
+        background-color: lightblue;
+        height:100px;
+        text-align:center;
+        padding:13px;
+        display:inline-block;
+}
+#text{
+        border: 1px solid blue;
+        background-color: lightblue;
+        position: absolute;
+        margin-top: 100px;
+        padding:13px;
+}
