@@ -1,23 +1,69 @@
+#panel {
+        border: 1px solid rgb(29, 29, 114);
+        background-color: rgb(24, 24, 34);
+        height:40px;
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+}
 #logo {
+        line-height:40px;
         border: 1px solid blue;
         background-color: lightblue;
-        height:100px;
-        text-align:center;
-        padding:13px;
-        display:inline-block;
+        height:inherit;
+        text-align: center ;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left:20px;
+        top: 50%;
+        
+        display: inline-block;  
+
 }
 #menu {
         border: 1px solid blue;
-        background-color: lightblue;
-        height:100px;
-        text-align:center;
-        padding:13px;
-        display:inline-block;
+        background-color: rgb(125, 159, 170);
+        display: inline-block;
+        height:inherit;
+        right: 0;
+        position: relative;
+        margin-right: 50px;    
 }
-#text{
-        border: 1px solid blue;
-        background-color: lightblue;
-        position: absolute;
-        margin-top: 100px;
-        padding:13px;
+#menuButton {
+        line-height:40px;
+        border: 1px solid rgb(52, 172, 156);
+        background-color: rgb(184, 187, 230);
+        height: inherit;
+        display: inherit; 
+        padding-right: 10px;
+        padding-left: 10px; 
+
+}
+
+#leftSpace{
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        border-left: 2px dotted black;
+        width:300px;
+        margin-left: 20%;
+        margin-top: 5%;
+        padding: 30px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+}
+#userPage{
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        border: 2px dotted black;
+        width:300px;
+        margin-left: 20%;
+        margin-top: 5%;
+        padding: 30px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+}
+#userAva{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
 }

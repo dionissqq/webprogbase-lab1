@@ -6,14 +6,44 @@
   <title>MY FIRST SITE</title>
   <meta name="description" content="MY FIRST SITE DESCRIPTION">
   <meta name="author" content="MY NAME">
+  <style>
+      .layer1 {
+       font: Caviar Dreams;  
+      } 
+     </style>
 </head>
 <body>
-  <div id='logo'>Welcome!</div  >
-  <div id="menu">Home | <a href="users.html">Users</a> | <a href="entities.html">Entities</a> | <a href="about.html">About</a></div>
-    <div id=text>
-<ul>
-    <li><a href ="users/user1.html">user1</a>;
-    <li><a href ="users/user2.html">user2</a>;
-  </ul></div>
+<div id=panel>
+  <span id='logo'>Welcome!</span>
+  <span id="menu">
+    <span id=menuButton>
+     <a href="users.html">Users</a> </span>
+    <span id=menuButton>
+        <a href="entities.html">Entities</a> </span>
+    <span id=menuButton>
+        <a href="about.html">About</a> </span>
+  
+    </span>
+</div>
+<div id=leftSpace>
+  <p> <b class="layer1">Current users list:</p></b>
+  <table border="1" cellpadding="5">
+    <tr>
+      <th>Login</th>
+      <th>Fullname</th>
+      <th>Registrated</th>
+    </tr>
+    <tr>
+      <td><a href="users/user1.html">supu8</a></td>
+      <td><a href="users/user1.html">daniil</a></td>
+      <td>23/03/19</td>
+    </tr>
+    <tr>
+      <td><a href="users/user2.html">someuser</a></td>
+      <td><a href="users/user2.html">Yura Kalmukow</a></td>
+      <td>12/02/18</td>
+    </tr>
+</div>
 </body>
 </html>
+
