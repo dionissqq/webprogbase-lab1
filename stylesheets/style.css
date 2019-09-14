@@ -7,14 +7,17 @@
         overflow: hidden;
 }
 #logo {
+        background-position: center;
+        background-size: cover;
+        background-image:url("../photos/logo.png");
+        background-position: center;
         line-height:40px;
         border: 1px solid blue;
-        background-color: lightblue;
         height:inherit;
         text-align: center ;
         padding-right: 10px;
         padding-left: 10px;
-        margin-left:20px;
+        margin-left:10%;
         top: 50%;
         display: inline-block;  
 }
@@ -25,7 +28,9 @@
         height:inherit;
         right: 0;
         position: relative;
-        margin-right: 50px;    
+        margin-right: 50px; 
+        margin-left: 50%;  
+
 }
 #menuButton {
         line-height:40px;
@@ -78,9 +83,9 @@
 }
 #userBio{
         top:0;
-        background-color: rgb(193, 195, 233);   
+        background-color: rgb(217, 219, 243);   
         padding:10px;
-        margin-left: 3%;
+        margin-left: 1%;
         height: 100px;
 }
 
@@ -92,6 +97,30 @@
         background-image:url("../photos/photo1.jpg");
         background-repeat: no-repeat;
         float:left;
+        background-position: center;
+        background-size: cover;
+}
+#photo2{
+        display: inline-block;
+        margin: 10px;
+        height: inherit;
+        width: 200px;
+        background-image:url("../photos/photo2.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        float:left;
+}
+#photo3{
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
+        margin: 10px;
+        height: inherit;
+        width: 200px;
+        background-image:url("../photos/photo3.jpg");
+        background-repeat: no-repeat;
+        float:left;
 }
 #photoInfo{
         display: inline-block;
@@ -99,6 +128,15 @@
         padding-top: 10px;
         float:left;
         margin: 10px;
+        margin-top: 20px;
         height: inherit;
         width: auto;
+}
+#indexText{
+        margin-left:20%;
+        margin-top: 10%;
+        text-align:left;
+        font-family: 'Franklin Gothic Medium';
+        font-size: 40px;
+        font-display: fallback;
 }
